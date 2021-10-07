@@ -99,8 +99,30 @@ SELECT ward, avg(dist)
 FROM foodaccess_flood
 GROUP BY ward
 
-/* e) Turns out, my results might be better illustrated if I did not group by ward. Below, I calculate summary statistics NOT grouped by ward*/
+/*e) Finding the change in distance for each ward */
+
+CREATE TABLE change_in_access_wards AS
+SELECT foodaccess_flood_wards.ward, foodaccess_flood_wards.avg AS flood_avg_dist, foodaccess_wards.avg AS normal_avg_dist, foodaccess_flood_wards.avg - foodaccess_wards.avg AS change_avg_dist
+FROM foodaccess_flood_wards LEFT JOIN foodaccess_wards
+ON foodaccess_flood_wards.ward = foodaccess_wards.ward
+
+/* f) Joining Ward geometry back to change_in_access_wards*/
+ALTER TABLE wards
+ADD COLUMN change_avg_dist REAL
+
+UPDATE wards
+SET change_avg_dist = change_in_access_wards.change_avg_dist
+FROM change_in_access_wards
+WHERE wards.ward_name = change_in_access_wards.ward
+
+/* g) Turns out, my results might be better illustrated if I did not group by ward. Below, I calculate summary statistics NOT grouped by ward*/
 CREATE TABLE change_in_access AS
 SELECT foodaccess_flood.osm_id, foodaccess_flood.geom, foodaccess_flood.dist AS flood_dist, foodaccess.dist AS normal_dist, foodaccess_flood.dist - foodaccess.dist AS change_dist
 FROM foodaccess_flood LEFT JOIN foodaccess
 ON foodaccess_flood.osm_id = foodaccess.osm_id
+
+/* h) Finding the residences where the distance to the nearest grocery store changed by over 500 meters*/
+CREATE TABLE meters_500 AS
+SELECT *
+FROM change_in_access
+WHERE change_dist > 500
