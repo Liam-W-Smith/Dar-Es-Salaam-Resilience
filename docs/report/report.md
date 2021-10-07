@@ -52,6 +52,8 @@ Objectively present the results of the study without additional interpretation.
 
 Provide a summary the key findings of the study along with any limitations or areas in need of further investigation. If the study did not succeed as expected, discuss likely practical procedural and informative causes. Practical procedural causes relate to problems in the research procedures, e.g. challenges with data, code, or research parameters. Informative causes relate to problems with the referent geographic phenomena, e.g. absence of the theorized effect(s), change in population, or change in location.
 
+I think I will include [my map](results/other) either here or in the results.
+
 ## Conclusions
 
 What are the broader implications of the research results for the environment or society? Do the results suggest the need for future research?
