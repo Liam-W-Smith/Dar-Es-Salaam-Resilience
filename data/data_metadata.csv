@@ -1,1 +1,3 @@
 file_path,file_name,format,sources,metadata,status,date_saved
+data/raw/public/flood_scenario.geojson, flood_scenario, geojson, Resilience Academy, data/metadata/Flood_scenarios_metadata.pdf, status?, 10/7/21
+data/raw/public/wards.geojson, wards, geojson, Resilience Academy, data/metadata/Wards_Metadata.pdf, status?, 10/7/21
