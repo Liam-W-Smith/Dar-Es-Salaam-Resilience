@@ -3,3 +3,5 @@ data/raw/public/flood_scenario.geojson, flood_scenario, geojson, Resilience Acad
 data/raw/public/wards.geojson, wards, geojson, Resilience Academy, data/metadata/Wards_Metadata.pdf, acquire, 10/7/21
 data/derived/public/wards.gpkg, wards, gpkg, Liam Smith, data/metadata/Wards_Metadata.pdf, derived, 10/7/21
 data/derived/public/meters_500.gpkg, meters_500, gpkg, Liam Smith, no metadata, derived, 10/7/21
+data/raw/private/planet_osm_polygon.gpkg, planet_osm_polygon, OpenStreetMap, data/metadata/OSM_metadata.md, acquire, 10/13/21
+data/raw/private/planet_osm_point.gpkg, planet_osm_point, OpenStreetMap, data/metadata/OSM_metadata.md, acquire, 10/13/21
