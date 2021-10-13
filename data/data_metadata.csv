@@ -1,5 +1,5 @@
 file_path,file_name,format,sources,metadata,status,date_saved
-data/raw/public/flood_scenario.geojson, flood_scenario, geojson, Resilience Academy, data/metadata/Flood_scenarios_metadata.pdf, acquire, 10/7/21
+data/raw/public/flood.geojson, flood, geojson, Resilience Academy, data/metadata/Flood_metadata.pdf, acquire, 10/7/21
 data/raw/public/wards.geojson, wards, geojson, Resilience Academy, data/metadata/Wards_Metadata.pdf, acquire, 10/7/21
 data/derived/public/wards.gpkg, wards, gpkg, Liam Smith, data/metadata/Wards_Metadata.pdf, derived, 10/7/21
 data/derived/public/meters_500.gpkg, meters_500, gpkg, Liam Smith, no metadata, derived, 10/7/21
