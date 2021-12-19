@@ -1,2 +1,4 @@
 Directory,File Name,Purpose
 code,SQLCode.sql,run data analysis
+code, dsm.style, style guide for osm2pgsql
+code, dsm_import.bat, batch file for osm2pgsql 
