@@ -15,7 +15,7 @@ Of the 1,292,622 residences in Dar Es Salaam, only 1,317 of them would be over 5
 
 ## Important Links
 - [Research Compendium](https://github.com/Liam-W-Smith/Dar-Es-Salaam-Resilience)
-- [Interactive Map of my Results in Dar Es Salaam](index.html)
+- [Interactive Map of my Results in Dar Es Salaam](https://liam-w-smith.github.io/Dar-Es-Salaam-Vulnerability/index.html#10/-6.8739/39.2805)
 
 ### Keywords
 
@@ -257,7 +257,7 @@ It is interesting to note that the residences experiencing the worst food access
 
 ![Dar Es Salaam Flood Risk and Food Access Map](images-for-report/ImageForGithub_DSMap.png)
 
-Please also see this [interactive map of my results](index.html) and hover your mouse over different residences and wards to see exactly how flooding would impact different households and regions within Dar Es Salaam.
+Please also see this [interactive map of my results](https://liam-w-smith.github.io/Dar-Es-Salaam-Vulnerability/index.html#10/-6.8739/39.2805) and hover your mouse over different residences and wards to see exactly how flooding would impact different households and regions within Dar Es Salaam.
 
 ## Discussion
 
