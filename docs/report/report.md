@@ -255,7 +255,7 @@ This means that of the 1,292,704 residences in Dar Es Salaam, only 1,317 of them
 The following choropleth map reveals the locations of these 1,317 residences and illustrates the cumulative impact of flooding on grocery store proximity in each ward.
 It is interesting to note that the residences experiencing the worst food access impacts of flooding appear to be concentrated in three main areas, all of which lie near the shore at the northern end of the city.
 
-![Dar Es Salaam Flood Risk and Food Access Map](ImageForGithub_DSMap.png)
+![Dar Es Salaam Flood Risk and Food Access Map](images-for-report/ImageForGithub_DSMap.png)
 
 Please also see this [interactive map of my results](index.html) and hover your mouse over different residences and wards to see exactly how flooding would impact different households and regions within Dar Es Salaam.
 
@@ -287,7 +287,7 @@ There are 40 residences in Dar Es Salaam for which the distance to the nearest g
 This should be impossible, given that the flood eliminates, rather than creates, grocers.
 I selected these 40 residences and visualized them on my map as shown below.
 
-![Searching for Spatial Autocorrelation in my Erroneous Results](SpatialAutocorrelation.png)
+![Searching for Spatial Autocorrelation in my Erroneous Results](images-for-report/SpatialAutocorrelation.png)
 
 Curiously, these points appear somewhat randomly distributed around Dar Es Salaam, demonstrating no evidence of spatial autocorrelation.
 This leads me to believe that the mistake is on the computational rather than theoretical side of my analysis, since nearby households should experience similar changes in distance to grocery vendors.
